@@ -10,6 +10,7 @@
 
   <!-- Navbar -->
   <header>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <nav class="navbar">
       <div class="logo">Robótica Educacional</div>
       <ul class="nav-links">
@@ -76,6 +77,34 @@
       </div>
     </div>
   </section>
+
+  <!-- Painel de Indicadores -->
+<section id="painel" class="section blue" style="background: linear-gradient(135deg, #dce35b 0%, #45b649 100%)">
+  <div class="text-image natural">
+    <div class="text">
+      <h1>Painel de Indicadores</h1>
+      <div class="kpi-cards">
+        <div class="kpi-card">
+          <h2>Alunos Impactados</h2>
+          <p>120</p>
+        </div>
+        <div class="kpi-card">
+          <h2>Satisfação Geral</h2>
+          <p>92%</p>
+        </div>
+        <div class="kpi-card">
+          <h2>Engajamento</h2>
+          <p>85%</p>
+        </div>
+      </div>
+
+      <div class="charts">
+        <canvas id="graficoBarras"></canvas>
+        <canvas id="graficoPizza"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Gráficos com Imagens Capturadas -->
   <section id="graficos" class="section blue" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%)">
